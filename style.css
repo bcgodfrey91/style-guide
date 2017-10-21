@@ -19,11 +19,11 @@ h1 {
 }
 
 .header-bar-container,
-.flexible-cards-container {
+.accordion-tabs-container {
   height: 100vh;
 }
 
-.accordion-tabs-container {
+.flexible-cards-container {
   height: 130vh;
 }
 
