@@ -4,6 +4,10 @@ section {
   border: 1px solid black;
 }
 
+h1 {
+  padding: 0 3rem;
+}
+
 .header-bar-container,
 .accordion-tabs-container,
 .flexible-cards-container {
@@ -24,6 +28,35 @@ section {
   height: 6rem;
 }
 
-h1 {
-  padding: 0 3rem;
+.card-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.top-row,
+.middle-row,
+.bottom-row {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  margin: 1rem 1rem;
+}
+
+.card {
+  height: 100%;
+  margin: 0rem 1rem;
+}
+
+.big {
+  border: 1px solid black;
+  flex: 4.15;
+}
+
+.small {
+  border: 1px solid black;
+  flex: 2;
+}
+
+.middle-row .small {
 }
