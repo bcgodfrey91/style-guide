@@ -60,11 +60,6 @@ h1 {
   margin: 0.5rem 1rem;
 }
 
-.big {
-  border: 1px solid black;
-  flex: 4.15;
-}
-
 .small {
   border: 1px solid black;
   flex: 2;
@@ -78,12 +73,9 @@ h1 {
 
 @media screen and (min-width: 555px) {
   .top-row,
-  .middle-row,
   .bottom-row {
     display: flex;
     justify-content: space-between;
-    height: 100%;
-    margin: 1rem 1rem;
   }
 
   .middle-row {
@@ -91,7 +83,6 @@ h1 {
   }
 
   .card {
-    height: 100%;
     margin: 0rem 1rem;
   }
 
@@ -103,12 +94,6 @@ h1 {
   .small {
     border: 1px solid black;
     flex: 2;
-  }
-
-  .card-header {
-    border-bottom: 1px solid black;
-    height: 4.5rem;
-    width: 100%;
   }
 }
 
