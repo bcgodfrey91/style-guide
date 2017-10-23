@@ -76,6 +76,8 @@ h1 {
   .bottom-row {
     display: flex;
     justify-content: space-between;
+    height: 100%;
+    margin: 1rem 1rem;
   }
 
   .middle-row {
