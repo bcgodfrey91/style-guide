@@ -43,17 +43,21 @@ h1 {
 }
 
 .top-row,
-.middle-row,
 .bottom-row {
+  display: none;
+}
+
+.middle-row {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: space-around;
   height: 100%;
   margin: 1rem 1rem;
 }
 
 .card {
   height: 100%;
-  margin: 0rem 1rem;
+  margin: 0.5rem 1rem;
 }
 
 .big {
@@ -70,6 +74,42 @@ h1 {
   border-bottom: 1px solid black;
   height: 4.5rem;
   width: 100%;
+}
+
+@media screen and (min-width: 555px) {
+  .top-row,
+  .middle-row,
+  .bottom-row {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    margin: 1rem 1rem;
+  }
+
+  .middle-row {
+    flex-direction: row;
+  }
+
+  .card {
+    height: 100%;
+    margin: 0rem 1rem;
+  }
+
+  .big {
+    border: 1px solid black;
+    flex: 4.15;
+  }
+
+  .small {
+    border: 1px solid black;
+    flex: 2;
+  }
+
+  .card-header {
+    border-bottom: 1px solid black;
+    height: 4.5rem;
+    width: 100%;
+  }
 }
 
 
