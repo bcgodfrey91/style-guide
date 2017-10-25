@@ -66,6 +66,10 @@ h1 {
   align-items: center;
 }
 
+.link-container.opened input {
+  font-size: 2rem;
+}
+
 .card-container {
   display: flex;
   flex-direction: column;
